@@ -1,0 +1,25 @@
+{
+  // Associa todos os arquivos .html ao modo Django HTML
+  "files.associations": {
+    "*.html": "django-html"
+  },
+
+  // Permite que o Emmet (atalhos de HTML) funcione dentro do Django HTML
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+
+  // Melhora o suporte a snippets e sugestões de código
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  
+  // Configuração para o interpretador Python do projeto (ajusta o path automaticamente)
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+
+  // Configurações específicas para o comportamento do editor em arquivos Django
+  "[django-html]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "batisteo.vscode-django"
+  }
+}
