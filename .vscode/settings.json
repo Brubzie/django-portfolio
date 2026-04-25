@@ -12,10 +12,6 @@
   // Melhora o suporte a snippets e sugestões de código
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   
-  // Configuração para o interpretador Python do projeto (ajusta o path automaticamente)
-  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
-  "python.terminal.activateEnvironment": true,
-
   // Configurações específicas para o comportamento do editor em arquivos Django
   "[django-html]": {
     "editor.tabSize": 4,
